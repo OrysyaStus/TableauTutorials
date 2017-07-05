@@ -1,4 +1,4 @@
-# Basics I: From Data Connection to Functional Dashboard
+# Basics I: From Data to Functional Dashboard
 Tableau is a software which produces interactive visualization products. We will be going through a Tableau workflow which includes, but is not limited to, examining data, creating a data connection with Tableau, creating a couple of simple visualizations (ie. bar charts, geospatial analysis, etc.), developing a dashboard, and publishing the developed dashboard to Tableau public. 
 
 This tutorial will be using the following work https://sandiegohearts.github.io/
@@ -15,5 +15,14 @@ Examine the factors contributing to varying heart disease rates across San Diego
 ## Make the Data Connection
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/DataConnections.PNG">
 
-For this tutorial, we will be using 2 sheets from the All_Data_Into_Tableau.xlsx file with the following common fields, SanDiegoZipCodes (LiveWell_Regions) and CHDDeathsDischargesHospital (Geography).
+For this tutorial, we will be using 2 sheets from the All_Data_Into_Tableau.xlsx file with the proper fields joined, SanDiegoZipCodes (LiveWell_Regions) and CHDDeathsDischargesHospital (Geography).
 
+## Visual: CHD Rates by Zipcode
+
+## Visuals: CHD Rates by Age, Ethnicity, and Gender
+
+## Apply Correct Filters
+
+## Create an Action
+
+## Dashboard Development
