@@ -29,6 +29,6 @@ Repeat Steps for Ethnicity and Gender
 
 ## Apply Correct Filters
 
-## Create an Action
-
 ## Dashboard Development
+
+## Add Actions
