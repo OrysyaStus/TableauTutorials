@@ -3,7 +3,7 @@ Tableau is a software which produces interactive visualization products. We will
 
 This tutorial will be using the following work https://sandiegohearts.github.io/
 
-We will be developing the following dashboard:
+We will be developing the following dashboard
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/sampledashboard.PNG">
 
 ## Tableau Start Page
@@ -18,8 +18,14 @@ Examine the factors contributing to varying heart disease rates across San Diego
 For this tutorial, we will be using 2 sheets from the All_Data_Into_Tableau.xlsx file with the proper fields joined, SanDiegoZipCodes (LiveWell_Regions) and CHDDeathsDischargesHospital (Geography).
 
 ## Visual: CHD Rates by Zipcode
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/outcomes_on_map.PNG">
 
 ## Visuals: CHD Rates by Age, Ethnicity, and Gender
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/outcomes_by_age.PNG">
+
+Repeat Steps for Ethnicity and Gender
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/outcomes_by_ethnicity.PNG">
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/outcomes_by_gender.PNG">
 
 ## Apply Correct Filters
 
