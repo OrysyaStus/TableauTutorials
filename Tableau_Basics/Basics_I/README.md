@@ -28,7 +28,17 @@ Repeat Steps for Ethnicity and Gender
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/outcomes_by_gender.PNG">
 
 ## Apply Correct Filters
+For CHD Rates by Zipcode
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/filters_1.PNG">
+
+For CHD Rates by Age, Ethnicity, and Gender
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/filters_2.PNG">
 
 ## Dashboard Development
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/dashboard_development.PNG">
 
 ## Add Actions
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/Tableau_Basics/Basics_I/Images/add_actions.PNG">
+
+## Test Functionality of Your Dashboard
+Make sure that your actions, filters, etc. are acting properly before publishing or sharing with colleagues.
