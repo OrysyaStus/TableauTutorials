@@ -62,7 +62,7 @@ Open SanDiegoMapping.twbx in Tableau Desktop.
 
 Choose 'Yes' to run external service scripts. <br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/run_external_service.PNG">
-If additional errors pop up, ignore them as we will fix these.
+<br>If additional errors pop up, ignore them as we will fix these.
 
 After selecting the desired model, deploy your function into Tableau.
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/deploy_function.PNG">
