@@ -83,5 +83,10 @@ After selecting the desired model, deploy your function into Tableau.
 SCRIPT_STR("return tabpy.query('HDDiagnosis',_arg1,_arg2,_arg3,_arg4,_arg5,_arg6,_arg7,_arg8,_arg9, _arg10, _arg11, _arg12, _arg13)['response']",
 [age], [sex], [chest pain], [resting blood pressure], [serum cholestoral], [fasting blood sugar], [resting electrocardiographic results], [max HR achieved], [exercise induxed angina], [ST depression induced by exercise ], [slope of the peak exercise ST segment], [number of major blood vessels], [thal])
 
+## 10. Test Functionality of Dashboard
+Note parameters were created in order to communicate with the deployed function in Tableau
+Example parameter for age feature
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/parameters.PNG">
 
-
+Determine how well the model actually performs
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/test_functionality.PNG">
