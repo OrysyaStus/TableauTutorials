@@ -67,20 +67,20 @@ Choose 'Yes' to run external service scripts. <br>
 After selecting the desired model, deploy your function into Tableau.
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/deploy_function.PNG">
 
-## 8. Call Deployed Function in Tableau via Calculated Field
+## 8. Create External Service Connection in Tableau
+Make sure that external service connection in Tableau is made.<br>
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/external_service_connection1.PNG">
+<br><br>Choose correct server and port.<br>
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/external_service_connection2.PNG">
+<br>'Test Connection' to make sure that a connection with Tableau Server has been made.
+
+## 9. Call Deployed Function in Tableau via Calculated Field
 Calling the deployed function in Tableau.
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/calculated_field.PNG">
 
 <br>Entire script (references each of the attributes which were used to create the model):<br>
 SCRIPT_STR("return tabpy.query('HDDiagnosis',_arg1,_arg2,_arg3,_arg4,_arg5,_arg6,_arg7,_arg8,_arg9, _arg10, _arg11, _arg12, _arg13)['response']",
 [age], [sex], [chest pain], [resting blood pressure], [serum cholestoral], [fasting blood sugar], [resting electrocardiographic results], [max HR achieved], [exercise induxed angina], [ST depression induced by exercise ], [slope of the peak exercise ST segment], [number of major blood vessels], [thal])
-
-## 9. Create External Service Connection in Tableau
-Make sure that external service connection in Tableau is made.<br>
-<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/external_service_connection1.PNG">
-<br><br>Choose correct server and port.<br>
-<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/external_service_connection2.PNG">
-<br>'Test Connection' to make sure that a connection with Tableau Server has been made.
 
 ## 10. Test Functionality of Dashboard
 Note parameters were created in order to communicate with the deployed function in Tableau.
