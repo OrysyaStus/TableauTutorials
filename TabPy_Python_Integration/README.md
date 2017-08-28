@@ -17,20 +17,18 @@ We will understand the setup and functionality of TabPy using a working example
 This dashboard utilizes a deployed function from a Jupyter notebook. Changes to the user-inputted parameters allow for real-time predictions. The data used for this work is taken from the UC Irvine machine learning repository: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
 ## 1. TabPy Server Set Up
-Go to https://github.com/tableau/TabPy to download/clone TabPy as needed:
-<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/TabPy_Setup_1.PNG">
-
-Full instructions: https://github.com/tableau/TabPy/blob/master/server.md
 1. No Python or Anaconda installation: https://github.com/tableau/TabPy/blob/master/server.md#using-the-setup-script
 2. Have Anaconda for Python 2.7: https://github.com/tableau/TabPy/blob/master/server.md#manual-installation
 
 **Must: pip install tabpy-server**
+Full instructions: https://github.com/tableau/TabPy/blob/master/server.md
 
 ## 2. TabPy Client Set Up
 Full instructions: https://github.com/tableau/TabPy/blob/master/client.md
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/tabpy_client.PNG">
 
 **Must: pip install tabpy-client**
+**Must: pip install future**
 
 ## 3. Install Tableau 10.3
 If needed: https://github.com/OrysyaStus/TableauTutorials
