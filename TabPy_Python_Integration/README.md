@@ -43,7 +43,7 @@ Example path for Windows (note this will be different for each computer)
 Make sure to keep this command prompt running in the background until the end of the tutorial.
 
 ## 5. Create External Service Connection in Tableau
-Open SanDiegoMapping.twbx into Tableau Desktop. 
+Open SanDiegoMapping.twbx in Tableau Desktop. 
 
 Choose 'Yes' to run external service scripts. <br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/run_external_service.PNG">
@@ -61,11 +61,11 @@ Make sure that external service connection in Tableau is made.<br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/inline_example.PNG">
 Link: https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
 
-2. Python deployable function from Jupyter notebook
+<br>2. Python deployable function from Jupyter notebook
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/deployable_function.PNG">
 Link: https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
 
-We will be focusing on the deployable functions for this tutorial.
+<br>We will be focusing on the deployable functions for this tutorial.
 
 ## 7. Process, Model, and Predict with Jupyter Notebook
 Open a new command prompt, navigate to location of HD_ML_Example.ipynb and start a Jupyter Notebook.
@@ -80,6 +80,8 @@ After selecting the desired model, deploy your function into Tableau.
 
 ## 9. Call Deployed Function in Tableau via Calculated Field
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/calculated_field.PNG">
+
+<br>Entire script (references each of the attributes which were used to create the model):
 SCRIPT_STR("return tabpy.query('HDDiagnosis',_arg1,_arg2,_arg3,_arg4,_arg5,_arg6,_arg7,_arg8,_arg9, _arg10, _arg11, _arg12, _arg13)['response']",
 [age], [sex], [chest pain], [resting blood pressure], [serum cholestoral], [fasting blood sugar], [resting electrocardiographic results], [max HR achieved], [exercise induxed angina], [ST depression induced by exercise ], [slope of the peak exercise ST segment], [number of major blood vessels], [thal])
 
@@ -88,5 +90,5 @@ Note parameters were created in order to communicate with the deployed function 
 <br>Example parameter for age feature.<br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/parameters.PNG">
 
-<br>Determine how well the model actually performs
+<br>Determine how well the model actually performs<br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/test_functionality.PNG">
