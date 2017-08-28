@@ -74,7 +74,9 @@ Open a new command prompt, navigate to location of HD_ML_Example.ipynb and start
 Work through the Jupyter notebook
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/jupyter_notebook.PNG">
 
-
+## 8. Deploy Function into Tableau
+After selecting the desired model, deploy your function into Tableau.
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/deploy_function.PNG">
 
 
 
