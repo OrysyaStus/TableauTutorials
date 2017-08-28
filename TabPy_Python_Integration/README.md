@@ -21,7 +21,7 @@ This dashboard utilizes a deployed function from a Jupyter notebook. Changes to 
 2. Have Anaconda for Python 2.7: https://github.com/tableau/TabPy/blob/master/server.md#manual-installation
 
 **Must: pip install tabpy-server**
-Full instructions: https://github.com/tableau/TabPy/blob/master/server.md
+<br>Full instructions: https://github.com/tableau/TabPy/blob/master/server.md
 
 ## 2. TabPy Client Set Up
 Full instructions: https://github.com/tableau/TabPy/blob/master/client.md
