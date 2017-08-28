@@ -54,4 +54,27 @@ Make sure that external service connection in Tableau is made.<br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/external_service_connection1.PNG">
 <br><br>Choose correct server and port.<br>
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/external_service_connection2.PNG">
+<br>'Test Connection' to make sure that a connection with Tableau Server has been made.
+
+## 6. Understanding Difference between Inline and Deployable Functions
+1. Python inline scripting as a Tableau calculated field
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/inline_example.PNG">
+Link: https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
+
+2. Python deployable function from Jupyter notebook
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/deployable_function.PNG">
+Link: https://www.tableau.com/about/blog/2017/1/building-advanced-analytics-applications-tabpy-64916
+
+We will be focusing on the deployable functions for this tutorial.
+
+## 7. Process, Model, and Predict with Jupyter Notebook
+Open a new command prompt, navigate to location of HD_ML_Example.ipynb and start a Jupyter Notebook.
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/start_jupyter_notebook.PNG">
+
+Work through the Jupyter notebook
+<img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/jupyter_notebook.PNG">
+
+
+
+
 
