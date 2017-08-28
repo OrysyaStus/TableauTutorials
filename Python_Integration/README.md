@@ -18,7 +18,7 @@ This dashboard utilizes a deployed function from a Jupyter notebook. Changes to 
 
 ## Set Up
 1. Install Python (Anaconda)
-  Windows: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
-  Mac: https://medium.com/@GalarnykMichael/install-python-on-mac-anaconda-ccd9f2014072
-  Linux: https://medium.com/@GalarnykMichael/install-python-on-ubuntu-anaconda-65623042cb5a
+    Windows: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
+    Mac: https://medium.com/@GalarnykMichael/install-python-on-mac-anaconda-ccd9f2014072
+    Linux: https://medium.com/@GalarnykMichael/install-python-on-ubuntu-anaconda-65623042cb5a
 2. 
