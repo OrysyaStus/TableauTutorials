@@ -27,8 +27,8 @@ This dashboard utilizes a deployed function from a Jupyter notebook. Changes to 
 <img src="https://github.com/OrysyaStus/TableauTutorials/blob/master/TabPy_Python_Integration/Images/tabpy_client1.PNG">
 
 **Must: pip install tabpy-client**
-**Must: pip install future**
-Full instructions: https://github.com/tableau/TabPy/blob/master/client.md
+<br>**Must: pip install future**
+<br>Full instructions: https://github.com/tableau/TabPy/blob/master/client.md
 
 ## 3. Install Tableau 10.3
 If needed: https://github.com/OrysyaStus/TableauTutorials
