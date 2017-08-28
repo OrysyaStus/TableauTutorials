@@ -13498,7 +13498,7 @@
           </metadata-records>
         </connection>
       </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.0761194' measure-ordering='alphabetic' measure-percentage='0.620896' parameter-percentage='0.302985' show-structure='true' user-set-layout='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.0754986' measure-ordering='alphabetic' measure-percentage='0.622507' parameter-percentage='0.301994' show-structure='true' user-set-layout='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='shape' field='[usr:Calculation_631629899269746688:nk]' type='shape'>
@@ -19343,7 +19343,7 @@
       </viewpoints>
       <active id='-1' />
     </window>
-    <window class='dashboard' maximized='true' name='Data Science Advances Health' tab-color='#f66273'>
+    <window class='dashboard' name='Data Science Advances Health' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='Age'>
           <zoom type='entire-view' />
@@ -19388,7 +19388,37 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='33' />
+    </window>
+    <window class='worksheet' maximized='true' name='Diagnosis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13sf35j1phn6431cv2bmh1vjk1m4].[usr:Calculation_631629899269746688:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
     </window>
     <window class='dashboard' name='Meet the Contributors' tab-color='#f66273'>
       <viewpoints />
@@ -19501,36 +19531,6 @@
           </strip>
         </edge>
       </cards>
-    </window>
-    <window class='worksheet' hidden='true' name='Diagnosis'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card pane-specification-id='0' param='[federated.13sf35j1phn6431cv2bmh1vjk1m4].[usr:Calculation_631629899269746688:nk]' type='shape' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <zoom type='entire-view' />
-      </viewpoint>
     </window>
     <window class='worksheet' hidden='true' name='Exercise Induced Angina'>
       <cards>
